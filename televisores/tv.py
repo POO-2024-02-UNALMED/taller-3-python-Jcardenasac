@@ -11,6 +11,7 @@ class TV:
     def __init__(self, marca, estado):
         self._marca = marca
         self._estado = estado
+        self._numTV += 1
 
     def getMarca(self):
         return self._marca
