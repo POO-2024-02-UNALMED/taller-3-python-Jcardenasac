@@ -1,9 +1,6 @@
-
 class Control:
-    _tv = None
 
-    def __init__(self) -> None:  # Se puede eliminar
-        self._tv = None    # Se puede eliminar
+    _tv = None
 
     def enlazar(self, tv):
         self._tv = tv
@@ -17,7 +14,7 @@ class Control:
 
     def canalUp(self) -> None:
         self._tv.canalUp()
-
+    
     def canalDown(self) -> None:
         self._tv.canalDown()
 
@@ -35,6 +32,6 @@ class Control:
 
     def getTv(self):
         return self._tv
-
-    def setTv(self, tv) -> None:
+    
+    def setTv(self, tv):
         self._tv = tv
