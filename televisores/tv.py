@@ -44,12 +44,12 @@ class TV:
         self._control = control
 
     @classmethod
-    def getNumTV(cls, self):
-        return self.numTV
+    def getNumTV(cls):
+        return cls.numTV
 
     @classmethod
-    def setNumTV(cls, self, numTV):
-        self.numTV = numTV
+    def setNumTV(cls, numTV):
+        cls.numTV = numTV
 
     def turnOn(self):
         self._estado = True
